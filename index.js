@@ -51,19 +51,16 @@ var getPlatforms = function (projectName) {
       { name: 'icon-76@2x.png',          size : 152  },
       { name: 'icon-83.5@2x.png',        size : 167  },
       { name: 'icon-1024.png',           size : 1024 },
-      { name: 'icon-small.png',          size : 29   },
-      { name: 'icon-small@2x.png',       size : 58   },
-      { name: 'icon-small@3x.png',       size : 87   },
+      { name: 'icon-29.png',             size : 29   },
       { name: 'icon.png',                size : 57   },
       { name: 'icon@2x.png',             size : 114  },
-      { name: 'AppIcon24x24@2x.png',     size : 48   },
-      { name: 'AppIcon27.5x27.5@2x.png', size : 55   },
-      { name: 'AppIcon29x29@2x.png',     size : 58   },
-      { name: 'AppIcon29x29@3x.png',     size : 87   },
-      { name: 'AppIcon40x40@2x.png',     size : 80   },
-      { name: 'AppIcon44x44@2x.png',     size : 88   },
-      { name: 'AppIcon86x86@2x.png',     size : 172  },
-      { name: 'AppIcon98x98@2x.png',     size : 196  }
+      { name: 'icon-24@2x.png',          size : 48   },
+      { name: 'icon-27.5@2x.png',        size : 55   },
+      { name: 'icon-29@2x.png',          size : 58   },
+      { name: 'icon-29@3x.png',          size : 87   },
+      { name: 'icon-44@2x.png',          size : 88   },
+      { name: 'icon-86@2x.png',          size : 172  },
+      { name: 'icon-98@2x.png',          size : 196  }
     ]
   });
   platforms.push({
@@ -71,19 +68,12 @@ var getPlatforms = function (projectName) {
     isAdded : fs.existsSync('platforms/android'),
     iconsPath : 'platforms/android/app/src/main/res/',
     icons : [
-      { name : 'drawable/icon.png',       size : 96 },
-      { name : 'drawable-hdpi/icon.png',  size : 72 },
-      { name : 'drawable-ldpi/icon.png',  size : 36 },
-      { name : 'drawable-mdpi/icon.png',  size : 48 },
-      { name : 'drawable-xhdpi/icon.png', size : 96 },
-      { name : 'drawable-xxhdpi/icon.png', size : 144 },
-      { name : 'drawable-xxxhdpi/icon.png', size : 192 },
-      { name : 'mipmap-hdpi/icon.png',  size : 72 },
-      { name : 'mipmap-ldpi/icon.png',  size : 36 },
-      { name : 'mipmap-mdpi/icon.png',  size : 48 },
-      { name : 'mipmap-xhdpi/icon.png', size : 96 },
-      { name : 'mipmap-xxhdpi/icon.png', size : 144 },
-      { name : 'mipmap-xxxhdpi/icon.png', size : 192 }
+      { name : 'mipmap-hdpi/ic_launcher.png',  size : 72 },
+      { name : 'mipmap-ldpi/ic_launcher.png',  size : 36 },
+      { name : 'mipmap-mdpi/ic_launcher.png',  size : 48 },
+      { name : 'mipmap-xhdpi/ic_launcher.png', size : 96 },
+      { name : 'mipmap-xxhdpi/ic_launcher.png', size : 144 },
+      { name : 'mipmap-xxxhdpi/ic_launcher.png', size : 192 }
     ]
   });
   platforms.push({
